@@ -40,10 +40,6 @@ def is_number(s):
 app = tkinter.Tk()
 app.geometry("300x260")
 
-background = tkinter.PhotoImage(file = "back.png")
-backLab = tkinter.Label(app, image=background)
-backLab.place(x=0, y=0, relwidth=1, relheight=1)
-
 labMass = tkinter.Label(app, text="Weight(kg)", font=("Courier", 24))
 labMass.place(x=5, y=0)
 
